@@ -16,7 +16,7 @@ def test_calculator_add():
     assert calc.result == 4
 
 def test_calculator_get_result():
-    """Testing the Get result method of the calculator"""
+    """Testing the Get result method of calculator"""
     calc = Calculator()
     assert calc.get_result() == 0
 
